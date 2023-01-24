@@ -7,3 +7,6 @@
     height: 600px;
     position: relative;
 }
+.accordion-button{
+    background:  #F3F3F3;
+}
