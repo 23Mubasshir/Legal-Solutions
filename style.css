@@ -10,3 +10,16 @@
 .accordion-button{
     background:  #F3F3F3;
 }
+
+/* -----Responsive styles----- */
+
+@media all and (max-width: 576px) {
+    .card{
+        border-left: none;
+        border-right: none;
+    }
+      
+    .carousel-item img{
+        height: 200px;
+    }
+}
