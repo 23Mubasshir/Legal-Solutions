@@ -22,21 +22,81 @@
 </head>
 
 <body>
+  <!-- Header Section -->
+<header>
 
-  <header>
+  <!-- -----Navbar----- -->
+  <nav class="container navbar navbar-expand-lg bg-body-white">
 
-  </header>
+      <div class="container py-5">
+        <a class="navbar-brand" href="#"><img class="w-75" src="images/Group 2.png" alt=""></a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cases</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+
+            
+            <li class="nav-item">
+              <a class="nav-link">Contact Us</a>
+            </li>
+          </ul>
+
+          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Free Consultation</button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- -----Modal Code----- -->
+   
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Free Consultation</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="recipient-name" class="col-form-label">Your Gmail:</label>
+                <input type="text" class="form-control" id="recipient-name">
+              </div>
+              <div class="mb-3">
+                <label for="message-text" class="col-form-label">Message:</label>
+                <textarea class="form-control" id="message-text"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn">Send message</button>
+          </div>
+        </div>
+      </div>
+    </div>
+</header>
+
   
-
-  <main>
-
-  </main>
-
-
-  <footer>
-
-  </footer>
-
     
     <!-- Bootstrap Javascript Link (offline) -->
     <script src="Bootstrap css and Javascript/bootstrap.min.js"></script>
