@@ -2,3 +2,8 @@
     background-color: #B68C5A;
     color: #ffffff;
 }
+.section1st{
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
